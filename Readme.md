@@ -2,7 +2,7 @@
 
 **Simple menu bar application made for MacOS to display number of unseen e-amils and function to easily read them with one click**
 
-This project is currently still in development, so the app isnt doing anything because it doesnt have verification system for gmail
+This project is just local for my device, because you need to insert email address and Google App passoword into **login.yaml** file
 
 ## Installation
 
