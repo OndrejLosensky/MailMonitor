@@ -6,8 +6,8 @@ OPTIONS = {
     'packages': ['rumps', 'yaml', 'imaplib', 'smtplib', 'email'],  # Add necessary packages
     'iconfile': 'logo.png',  # Provide the path to the icon file in .icns format
     'plist': {
-        'CFBundleDisplayName': 'UnreadEmails',  # Set the display name of your application
-        'CFBundleName': 'UnreadEmails',  # Set the bundle name of your application
+        'CFBundleDisplayName': 'MailMonitor',  # Set the display name of your application
+        'CFBundleName': 'MailMonitor',  # Set the bundle name of your application
         'CFBundleIdentifier': 'com.yourcompany.YourAppName',  # Set the bundle identifier
         'CFBundleVersion': "1.0.0",  # Set the version of your application
         'LSUIElement': True,  # Set to True to create a menu bar app without a dock icon
