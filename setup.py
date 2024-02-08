@@ -3,18 +3,24 @@ from setuptools import setup
 APP = ['Main.py']
 DATA_FILES = ['login.yaml', 'logo.png']  # Include necessary data files
 OPTIONS = {
-    'packages': ['rumps', 'yaml', 'imaplib', 'smtplib', 'email'],  # Add necessary packages
-    'iconfile': 'logo.png',  # Provide the path to the icon file in .icns format
+    'packages': ['rumps', 'yaml', 'imaplib', 'smtplib', 'email'],
+    'iconfile': 'logo.png',
     'plist': {
-        'CFBundleDisplayName': 'MailMonitor',  # Set the display name of your application
-        'CFBundleName': 'MailMonitor',  # Set the bundle name of your application
-        'CFBundleIdentifier': 'com.yourcompany.YourAppName',  # Set the bundle identifier
-        'CFBundleVersion': "1.0.0",  # Set the version of your application
-        'LSUIElement': True,  # Set to True to create a menu bar app without a dock icon
-        'NSHumanReadableCopyright': 'Copyright 2024, YourCompany',
+        'CFBundleDisplayName': 'MailMonitor',
+        'CFBundleName': 'MailMonitor',
+        'CFBundleIdentifier': 'com.yourcompany.YourAppName',
+        'CFBundleVersion': "1.0.0",
+        'LSBackgroundOnly': True,  # Enable background-only mode
+        'NSUIElement': True,  # Hide from Dock and Command-Tab switcher
+        'LSUIElement': True,  # Create a menu bar app without a dock icon
+        'LSUIPresentationMode': 4,  # Ensure the application is brought to the foreground when launched
+        'LSLaunchAtLogin': True,  # Enable launch at login
+        'NSAppSleepDisabled': True,  # Prevent the app from being put to sleep
+        'NSPrincipalClass': 'NSApplication',  # Set the principal class to NSApplication
         # Add any other necessary plist settings
     }
 }
+
 
 setup(
     app=APP,
