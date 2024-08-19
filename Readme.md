@@ -5,15 +5,10 @@
 This project is just local for my device, because you need to insert email address and Google App passoword into **login.yaml** file
 
 ## Installation
-
-*You can install in on this website right here: [https://mail-monitor-app.netlify.app/](https://mail-monitor-app.netlify.app)*
-
-
-This will install MailMonitor.app which will run automatically on your device
+*Fork this repo than add your credentials to the login.yaml*
 
 ## Preview
 ![Snímek obrazovky 2024-02-08 v 17 45 55](https://github.com/OndrejLosensky/MailMonitor/assets/127244546/903156c0-ddd8-429b-8977-d38b48bd5203)
-
 
 
 
